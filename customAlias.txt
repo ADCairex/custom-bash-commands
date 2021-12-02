@@ -1,0 +1,1 @@
+alias customMerge = "git merge $1 $2 && git add . && git commit -m "merge $1 with $2" && git push"
